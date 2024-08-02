@@ -1,0 +1,26 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: default-harness-k8s-system-cmd-probe
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: A default system probe to check for application health
+  displayName: default-harness-k8s-system-cmd-probe
+  experiments: null
+  faults: null
+  keywords:
+  - default-probe
+  - healthcheck
+  plan: null
+  provider:
+    name: ""
+  scenarios: null
