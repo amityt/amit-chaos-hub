@@ -36,3 +36,10 @@ probes:
 - infraType: Kubernetes
   name: default-harness-k8s-system-cmd-probe-1
   type: cmdProbe
+- description: A default system probe to check for application health
+  infraType: Kubernetes
+  name: lol-pol
+  tags:
+  - default-probe
+  - healthcheck
+  type: cmdProbe
