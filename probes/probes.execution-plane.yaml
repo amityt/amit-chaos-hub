@@ -33,3 +33,6 @@ probes:
   - default-probe
   - healthcheck
   type: cmdProbe
+- infraType: Kubernetes
+  name: default-harness-k8s-system-cmd-probe-1
+  type: cmdProbe
