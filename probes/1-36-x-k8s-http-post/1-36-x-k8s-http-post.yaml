@@ -1,0 +1,17 @@
+httpProbe/inputs:
+  method:
+    post:
+      body: '{data:d1}'
+      criteria: '>='
+      responseCode: "600"
+  url: https://google.com
+mode: Continuous
+name: 1-36-x-k8s-http-post
+runProperties:
+  attempt: 2
+  initialDelay: 2s
+  interval: 2s
+  probePollingInterval: 2s
+  probeTimeout: 10s
+  verbosity: info
+type: httpProbe
