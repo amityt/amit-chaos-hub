@@ -1,0 +1,13 @@
+cmdProbe/inputs:
+  command: ./healthcheck
+  comparator:
+    criteria: contains
+    type: string
+    value: '[Pass]'
+mode: Continuous
+name: default-harness-k8s-system-cmd-probe-1722619384025
+runProperties:
+  attempt: 1
+  interval: 1s
+  probeTimeout: 180s
+type: cmdProbe

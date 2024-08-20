@@ -14,3 +14,7 @@ probes:
   infraType: Linux
   name: linux-header-test-demo-1722619065003
   type: httpProbe
+- description: cmd-probe
+  infraType: Kubernetes
+  name: default-harness-k8s-system-cmd-probe-1722619384025
+  type: cmdProbe
