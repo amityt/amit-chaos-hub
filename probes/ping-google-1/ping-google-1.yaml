@@ -1,0 +1,13 @@
+httpProbe/inputs:
+  method:
+    get:
+      criteria: ==
+      responseCode: "200"
+  url: https://google.com
+mode: Continuous
+name: ping-google-1
+runProperties:
+  attempt: 1
+  interval: 1s
+  probeTimeout: 10s
+type: httpProbe

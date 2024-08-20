@@ -2,3 +2,11 @@ probes:
 - infraType: Kubernetes
   name: ping-google
   type: httpProbe
+- description: test-probe
+  infraType: Kubernetes
+  name: ping-google-1
+  tags:
+  - lol
+  - test
+  - hehe
+  type: httpProbe

@@ -1,0 +1,27 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: ping-google-1
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: test-probe
+  displayName: ping-google-1
+  experiments: null
+  faults: null
+  keywords:
+  - lol
+  - test
+  - hehe
+  plan: null
+  provider:
+    name: ""
+  scenarios: null
