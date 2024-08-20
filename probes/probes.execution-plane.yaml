@@ -10,3 +10,7 @@ probes:
   - test
   - hehe
   type: httpProbe
+- description: linux-probe
+  infraType: Linux
+  name: linux-header-test-demo-1722619065003
+  type: httpProbe
