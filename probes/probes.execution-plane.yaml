@@ -17,4 +17,4 @@ probes:
 - description: cmd-probe
   infraType: Kubernetes
   name: default-harness-k8s-system-cmd-probe-1722619384025
-  type: cmdProbe
+  type: cmd
