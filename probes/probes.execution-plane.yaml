@@ -1,0 +1,4 @@
+probes:
+- infraType: Kubernetes
+  name: ping-google
+  type: httpProbe
