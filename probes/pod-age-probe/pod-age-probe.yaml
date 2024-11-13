@@ -1,0 +1,21 @@
+cmdProbe/inputs:
+  command: python3 script.py
+  comparator:
+    criteria: '!='
+    type: int
+    value: "0"
+  source:
+    env:
+    - name: K8S_NAMESPACE
+      value: v2
+    - name: LABEL_SELECTOR
+      value: app=nginx
+    image: docker.io/amitkrdas/pod-health:v3
+mode: Continuous
+name: pod-age-probe
+runProperties:
+  attempt: 3
+  interval: 2s
+  probePollingInterval: 2s
+  probeTimeout: 20s
+type: cmdProbe
