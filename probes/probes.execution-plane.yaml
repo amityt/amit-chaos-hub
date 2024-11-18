@@ -47,3 +47,7 @@ probes:
   infraType: Kubernetes
   name: pod-age-probe
   type: cmdProbe
+- description: A default system probe to check for application health
+  infraType: Kubernetes
+  name: pod-age-probe-lol
+  type: cmdProbe
